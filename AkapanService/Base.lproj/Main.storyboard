@@ -17,13 +17,40 @@
                     <view key="view" contentMode="scaleToFill" id="7s2-HP-pZR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WallpaperRegister" translatesAutoresizingMaskIntoConstraints="NO" id="Nb5-gD-ccI">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q1o-sY-70Q">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="tintColor" red="0.92804735900000002" green="0.567694068" blue="0.64313977960000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <items>
+                                    <navigationItem title="New Register" id="f55-Yo-U2W">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="ArrowBack" id="YRH-eF-83L">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="Ww2-O0-INf"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Q1o-sY-70Q" firstAttribute="trailing" secondItem="2FF-1I-X9a" secondAttribute="trailing" id="2ex-sl-P1A"/>
+                            <constraint firstItem="Nb5-gD-ccI" firstAttribute="top" secondItem="2FF-1I-X9a" secondAttribute="top" id="5ft-1j-eKJ"/>
+                            <constraint firstItem="Q1o-sY-70Q" firstAttribute="top" secondItem="2FF-1I-X9a" secondAttribute="top" id="LoI-QY-sRK"/>
+                            <constraint firstItem="Nb5-gD-ccI" firstAttribute="bottom" secondItem="2FF-1I-X9a" secondAttribute="bottom" id="Qsa-0t-7sO"/>
+                            <constraint firstItem="Nb5-gD-ccI" firstAttribute="trailing" secondItem="2FF-1I-X9a" secondAttribute="trailing" id="jFK-4R-hu6"/>
+                            <constraint firstItem="Q1o-sY-70Q" firstAttribute="leading" secondItem="2FF-1I-X9a" secondAttribute="leading" id="m6k-vm-8p9"/>
+                            <constraint firstItem="Nb5-gD-ccI" firstAttribute="leading" secondItem="2FF-1I-X9a" secondAttribute="leading" id="quI-TU-7Nk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="2FF-1I-X9a"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0tT-SQ-piU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="784" y="21"/>
+            <point key="canvasLocation" x="782.60869565217399" y="20.758928571428569"/>
         </scene>
         <!--Main-->
         <scene sceneID="tne-QT-ifu">
@@ -122,7 +149,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ArrowBack" width="96" height="96"/>
         <image name="Logo" width="170.5" height="170.5"/>
         <image name="Wallpaper" width="1106" height="1675"/>
+        <image name="WallpaperRegister" width="333" height="333"/>
     </resources>
 </document>
