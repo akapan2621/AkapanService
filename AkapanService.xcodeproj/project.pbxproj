@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E52343121EEE43F00CFD371 /* MyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E52343021EEE43F00CFD371 /* MyConstant.swift */; };
+		2E5BF8A021EF24F200C62D51 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BF89F21EF24F200C62D51 /* ServiceViewController.swift */; };
 		2EB2F18721EDBA8700FA576B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2F18621EDBA8700FA576B /* AppDelegate.swift */; };
 		2EB2F18921EDBA8700FA576B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2F18821EDBA8700FA576B /* ViewController.swift */; };
 		2EB2F18C21EDBA8700FA576B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2F18A21EDBA8700FA576B /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		2E52343021EEE43F00CFD371 /* MyConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConstant.swift; sourceTree = "<group>"; };
+		2E5BF89F21EF24F200C62D51 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
 		2EB2F18321EDBA8700FA576B /* AkapanService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkapanService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB2F18621EDBA8700FA576B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EB2F18821EDBA8700FA576B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				2EB2F19821EDCF3E00FA576B /* RegisterViewController.swift */,
 				2E52343021EEE43F00CFD371 /* MyConstant.swift */,
 				2EB2F18A21EDBA8700FA576B /* Main.storyboard */,
+				2E5BF89F21EF24F200C62D51 /* ServiceViewController.swift */,
 				2EB2F18D21EDBA8800FA576B /* Assets.xcassets */,
 				2EB2F18F21EDBA8800FA576B /* LaunchScreen.storyboard */,
 				2EB2F19221EDBA8800FA576B /* Info.plist */,
@@ -144,6 +147,7 @@
 				2EB2F19921EDCF3E00FA576B /* RegisterViewController.swift in Sources */,
 				2EB2F18921EDBA8700FA576B /* ViewController.swift in Sources */,
 				2EB2F18721EDBA8700FA576B /* AppDelegate.swift in Sources */,
+				2E5BF8A021EF24F200C62D51 /* ServiceViewController.swift in Sources */,
 				2E52343121EEE43F00CFD371 /* MyConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

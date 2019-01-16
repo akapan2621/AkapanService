@@ -95,6 +95,21 @@
             </objects>
             <point key="canvasLocation" x="782.60869565217399" y="20.758928571428569"/>
         </scene>
+        <!--Service-->
+        <scene sceneID="IFD-pE-rM6">
+            <objects>
+                <viewController title="Service" id="Rg4-bT-hkr" customClass="ServiceViewController" customModule="AkapanService" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q8J-8R-Qmt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rAv-T8-iQm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="go4-cQ-bj4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1548" y="21"/>
+        </scene>
         <!--Main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -200,6 +215,7 @@
                     <connections>
                         <outlet property="passwordTextField" destination="tEi-ka-6Ha" id="zda-hT-TN3"/>
                         <outlet property="userTextField" destination="fh2-9y-Oz9" id="E0q-2G-ecr"/>
+                        <segue destination="Rg4-bT-hkr" kind="show" identifier="gotoService" id="ADV-Uo-xT8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
