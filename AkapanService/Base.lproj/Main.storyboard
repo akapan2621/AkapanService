@@ -31,7 +31,11 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="Ww2-O0-INf"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="CloudUpload" id="e9Y-Xh-8Wm"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="CloudUpload" id="e9Y-Xh-8Wm">
+                                            <connections>
+                                                <action selector="cloudUploadButton:" destination="LfG-Qj-rVS" id="seR-ci-C7M"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -81,6 +85,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2FF-1I-X9a"/>
                     </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="XRA-za-EDY" id="vk0-qM-c5p"/>
+                        <outlet property="passwordTextField" destination="QXd-Dc-4by" id="Yp2-sl-4no"/>
+                        <outlet property="userTextField" destination="QOC-oi-UaQ" id="QIH-6C-juC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0tT-SQ-piU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
