@@ -62,11 +62,45 @@ class RegisterViewController: UIViewController {
             showLog(title: "Result", message: "Have space")
             myAlert(title: "Have space", message: "Please fill all every blank")
         } else {
-//            No space
+            //            No space
             showLog(title: "Result", message: "No space")
+            uploadToServer(name: name, user: user, password: password)
         }
         
     }
+    
+    func uploadToServer(name: String, user: String, password: String) -> Void {
+        
+        let myConstant = MyConstant()
+        let urlString: String = "\(myConstant.getUrlAddUser())\(name)&User=\(user)&Password=\(password)"
+        
+        let url = URL(string: urlString)
+        let request = NSMutableURLRequest(url: url!)
+        let task = URLSession.shared.dataTask(with: request as URLRequest) {data, response, error in
+            
+            if error != nil {
+                print("Have error")
+            } else {
+                
+                if let testResult = data {
+                    
+                    let canReadResult = NSString(data: testResult, encoding: String.Encoding.utf8.rawValue)
+                    print("canReadResult ==> \(String(describing: canReadResult))")
+                    
+                }
+            
+            }// If
+            
+        }   // End task
+        
+        task.resume()
+        
+        
+        
+        
+    }
+    
+    
     func showLog(title: String, message: String) -> Void {
         print("\(title) = \(message)")
     }
