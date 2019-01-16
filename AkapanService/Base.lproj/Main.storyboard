@@ -28,7 +28,7 @@
                                     <navigationItem title="New Register" id="f55-Yo-U2W">
                                         <barButtonItem key="leftBarButtonItem" title="Item" image="ArrowBack" id="YRH-eF-83L">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="Ww2-O0-INf"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="backMain" id="Ww2-O0-INf"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" image="CloudUpload" id="e9Y-Xh-8Wm">
