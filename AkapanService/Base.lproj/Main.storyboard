@@ -102,7 +102,62 @@
                     <view key="view" contentMode="scaleToFill" id="q8J-8R-Qmt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zB6-2f-h8B">
+                                <rect key="frame" x="32" y="97" width="350" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="5SC-e0-tUE"/>
+                                    <constraint firstAttribute="height" constant="80" id="NSg-cb-aW9"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="fDI-d8-FWC"/>
+                                    <constraint firstAttribute="width" constant="350" id="uDg-Mx-5zs"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="xgm-7r-DkY"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="myButton:" destination="Rg4-bT-hkr" eventType="touchUpInside" id="1RN-uw-t8e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBH-5T-6Ct">
+                                <rect key="frame" x="57" y="185" width="300" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92804735900000002" green="0.567694068" blue="0.64313977960000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="myButton:" destination="Rg4-bT-hkr" eventType="touchUpInside" id="r7j-l4-5nP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QzZ-IL-JdV">
+                                <rect key="frame" x="80" y="273" width="250" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7c-e7-QH1">
+                                <rect key="frame" x="105" y="361" width="200" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXw-aA-3le">
+                                <rect key="frame" x="132" y="449" width="150" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hO-j5-741">
+                                <rect key="frame" x="155" y="537" width="100" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsM-5n-Hj4">
+                                <rect key="frame" x="180" y="625" width="50" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zB6-2f-h8B" firstAttribute="top" secondItem="rAv-T8-iQm" secondAttribute="top" constant="53" id="GHM-dG-nRV"/>
+                            <constraint firstItem="zB6-2f-h8B" firstAttribute="top" secondItem="rAv-T8-iQm" secondAttribute="top" constant="53" id="IVk-wB-2BF"/>
+                            <constraint firstItem="zB6-2f-h8B" firstAttribute="top" secondItem="rAv-T8-iQm" secondAttribute="top" constant="53" id="QEA-d8-VvH"/>
+                            <constraint firstItem="zB6-2f-h8B" firstAttribute="centerX" secondItem="q8J-8R-Qmt" secondAttribute="centerX" id="TCp-qE-1dh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rAv-T8-iQm"/>
                     </view>
                 </viewController>
